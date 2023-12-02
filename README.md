@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="./dotfiles.svg" alt="DotFiles"  style="border-radius: 20px; " />
+<kbd style="background: none; border: none; box-shadow: none;"><img src="./dotfiles.svg" alt="DotFiles"  style="border-radius: 20px; " /></kbd>
 </div>
 
 > [!NOTE]
