@@ -5,10 +5,11 @@
 
 <div align="Center">
 
-![GitHub last commit (by committer)](https://img.shields.io/github/last-commit/Ruanmiga/Dotfiles?style=for-the-badge&logo=Git&logoColor=%23FFFFFF&label=%C3%9Altimo%20Commit&labelColor=212121&color=%23fdf9c4)
+![GitHub last commit (by committer)](https://img.shields.io/github/last-commit/Ruanmiga/Dotfiles?style=for-the-badge&logo=Git&logoColor=%23FFFFFF&label=%C3%9Altimo%20Commit&labelColor=212121&color=%fcb7af)
 
 ![GitHub repo size](https://img.shields.io/github/repo-size/Ruanmiga/Dotfiles?style=for-the-badge&logo=box&logoColor=%23ffffff&label=Tama%C3%B1o&labelColor=%23212121&color=%23b2e2f2)
 
+![GitHub Repo stars](https://img.shields.io/github/stars/Ruanmiga/Dotfiles?style=for-the-badge&logo=star&logoColor=%23ffffff&label=Estrellas&labelColor=%23212121&color=%23fdf9c4)
 
 </div>
 
