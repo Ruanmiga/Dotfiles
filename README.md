@@ -15,6 +15,7 @@
 ![Static Badge](https://img.shields.io/badge/Config-3f8880?style=for-the-badge&logo=github&logoColor=%23ffffff&label=Dotfiles&labelColor=%23212121&color=%233f8880)
 
 </div>
+<b align="right">]</b>
 
 > [!NOTE]
 > Estos archivos de configuración se adaptan a mis necesidades y pueden algunas herramientas no ser de tu agradó.
