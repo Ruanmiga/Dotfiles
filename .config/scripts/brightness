@@ -1,0 +1,22 @@
+#!/bin/sh
+
+down() {    
+    brightnessctl s 2%-  # Disminuir el brillo en 5 unidades si es mayor a 5.00
+    brightness=$(brightnessctl g)
+    maxBrightness=$(brightnessctl m)
+    currentBrightness=$((($brightness * 100) / $maxBrightness))
+    dunstify -a "Brillo" "Bajando a $currentBrightness%" -h int:value:"$currentBrightness" -i /home/ruanmiga/.config/scripts/icons/brightness.svg -r 2593 -u normal
+}
+
+up() {
+    brightnessctl s +2% # Aumenta el brillo en 5 unidades (ajusta según tus preferencias)
+     brightness=$(brightnessctl g)
+    maxBrightness=$(brightnessctl m)
+    currentBrightness=$((($brightness * 100) / $maxBrightness))
+    dunstify -a "Brillo" "Subiendo a $currentBrightness%" -h int:value:"$currentBrightness" -i /home/ruanmiga/.config/scripts/icons/brightness.svg -r 2593 -u normal
+}
+
+case "$1" in
+    up) up;;
+    down) down;;
+esac

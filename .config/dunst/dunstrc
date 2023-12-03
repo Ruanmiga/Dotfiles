@@ -1,0 +1,133 @@
+# Configuration by Ruanmiga
+
+[global]
+
+    monitor = 0
+    follow = mouse
+    width = 400
+    height = 500
+    origin = top-right
+    offset = 15x60
+    scale = 0
+    notification_limit = 0
+
+    progress_bar = true
+    progress_bar_height = 10
+    progress_bar_frame_width = 0
+    progress_bar_min_width = 350
+    progress_bar_max_width = 400
+    progress_bar_corner_radius = 15
+
+    indicate_hidden = yes
+
+    transparency = 0
+
+    separator_height = 1
+    separator_color = foreground
+
+    padding = 12
+
+    # Horizontal padding.
+    horizontal_padding = 15
+
+    text_icon_padding = 0
+    frame_width = 0
+    frame_color = "#0f0f0f"
+     
+    sort = true
+    font =  JetBrainsMono Nerd Font 10
+
+    line_height = 0
+
+    markup = full
+
+    format = "<b>%s</b>\n<span size="small">%b</span>\n<b>%a</b>"
+
+    alignment = center
+
+    vertical_alignment = center
+
+    hide_duplicate_count = true
+    show_age_threshold = 60
+
+    ellipsize = "end"
+
+    ignore_newline = no
+
+    stack_duplicates = true
+
+    show_indicators = yes
+
+    icon_position = left
+ 
+    min_icon_size = 32
+
+    max_icon_size = 64
+
+    icon_corner_radius = 15
+    
+    # Paths to default icons.
+    icon_path = /usr/share/icons/gnome/128x128/status/:/usr/share/icons/gnome/128x128/devices/
+    icon_theme = "Papirus, Adwaita"
+    enable_recursive_icon_lookup = true
+
+    sticky_history = yes
+
+    history_length = 20
+
+    dmenu = wofi --show dmenu -p dunst:
+
+    browser = /usr/bin/xdg-open
+
+    always_run_script = true
+
+    title = Dunst
+
+    class = Dunst
+
+    corner_radius = 15
+
+    ignore_dbusclose = false
+
+    layer = top
+
+    force_xwayland = false
+
+    force_xinerama = false
+
+    mouse_left_click = close_current
+    mouse_middle_click = context
+    mouse_right_click = do_action
+
+[experimental]
+
+    per_monitor_dpi = false
+
+[urgency_low]
+    background = 	"#000000"
+    foreground = 	"#A4D7F1"
+    frame_color = 	"#A4D7F1"
+    timeout = 4
+    highlight = "#A4D7F1"
+    max_icon_size = 128
+    icon_position = top
+
+
+[urgency_normal]
+    background = 	"#0B0A10" # "#0f0f0f"
+    foreground = 	"#F1F0F5" # "#a6e3a1"
+    frame_color = 	"#0B0A10" # "#a6e3a1"
+    timeout = 5
+    highlight = "#D3E8FF"
+    min_icon_size = 0
+    max_icon_size = 0
+
+[urgency_critical]
+    background = 	"#FFB4A9"
+    foreground = 	"#680003"
+    frame_color = 	"#680003" # "#f38ba8"
+    timeout = 10
+    highlight = "#680003"
+    min_icon_size = 0
+    max_icon_size = 0
+    

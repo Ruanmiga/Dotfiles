@@ -1,0 +1,6 @@
+#!/bin/bash
+
+pkill xautolock
+
+# Configurar xautolock para bloquear la pantalla después de 15 minutos de inactividad
+xautolock -time 15 -locker "swaylock -i ~/Imágenes/wallpaper.png --effect-blur 10x3 --indicator --clock" &
