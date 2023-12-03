@@ -3,7 +3,7 @@
 <kbd style="background: none; border: none; box-shadow: none;"><img src="./dotfiles.svg" alt="DotFiles"  style="border-radius: 20px; " /></kbd>
 </div>
 
-<b align="left">[</b>
+<p align="left"><strong><samp>[</samp></strong></p>
 <div align="Center">
 
 ![GitHub last commit (by committer)](https://img.shields.io/github/last-commit/Ruanmiga/Dotfiles?style=for-the-badge&logo=Git&logoColor=%23FFFFFF&label=%C3%9Altimo%20Commit&labelColor=212121&color=%23fcb7af)
@@ -15,7 +15,7 @@
 ![Static Badge](https://img.shields.io/badge/Config-3f8880?style=for-the-badge&logo=github&logoColor=%23ffffff&label=Dotfiles&labelColor=%23212121&color=%233f8880)
 
 </div>
-<b align="right">]</b>
+<p align="right"><strong><samp>]</samp></strong></p>
 
 > [!NOTE]
 > Estos archivos de configuración se adaptan a mis necesidades y pueden algunas herramientas no ser de tu agradó.
