@@ -11,6 +11,8 @@
 
 ![GitHub Repo stars](https://img.shields.io/github/stars/Ruanmiga/Dotfiles?style=for-the-badge&logo=andela&logoColor=%23ffffff&label=Estrellas&labelColor=%23212121&color=%23fdf9c4)
 
+![Static Badge](https://img.shields.io/badge/Config-3f8880?style=for-the-badge&logo=github&logoColor=%23ffffff&label=Dotfiles&labelColor=%23212121&color=%233f8880)
+
 </div>
 
 > [!NOTE]
