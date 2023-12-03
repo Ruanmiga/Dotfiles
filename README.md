@@ -3,6 +3,7 @@
 <kbd style="background: none; border: none; box-shadow: none;"><img src="./dotfiles.svg" alt="DotFiles"  style="border-radius: 20px; " /></kbd>
 </div>
 
+<b align="left">[</b>
 <div align="Center">
 
 ![GitHub last commit (by committer)](https://img.shields.io/github/last-commit/Ruanmiga/Dotfiles?style=for-the-badge&logo=Git&logoColor=%23FFFFFF&label=%C3%9Altimo%20Commit&labelColor=212121&color=%23fcb7af)
